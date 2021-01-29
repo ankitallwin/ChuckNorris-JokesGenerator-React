@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding:0;
+  background-color: #c7cfdd;
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+h1{
+  color:#FFDEE9;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+padding: 2rem;
+text-align: center;
+}
+
+.btn{
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+border:none;
+}
+
+.box .btn:active{
+  transform: scale(0.88);
+}
+
+.box .btn:focus{
+  outline:none;
+}
+
+p{
+  font-family: 'Fredoka One', cursive;
+}
